@@ -1,0 +1,93 @@
+$primary-color: #3498db;
+$text-color: #333;
+$button-padding: 10px 20px;
+$button-margin: 10px 5px;
+$icon-margin-right: 8px;
+
+
+
+.watchlist-container {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  color: $text-color;
+
+  h2 {
+    margin-top: 0;
+    color: #fff;
+  }
+
+  .back-button {
+    padding: $button-padding;
+    margin: $button-margin;
+    border: none;
+    background-color: $primary-color;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.2s;
+
+    svg {
+      margin-right: $icon-margin-right;
+    }
+
+    &:hover {
+      background-color: darken($primary-color, 10%);
+    }
+  }
+
+  .movie-card {
+    background-color: #f9f9f9;
+    padding: 20px;
+    margin: 10px 0;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+    h3 {
+      margin-top: 0;
+    }
+
+    p {
+      display: flex;
+      align-items: center;
+      margin: 8px 0;
+      font-size: 14px;
+
+      svg {
+        margin-right: $icon-margin-right;
+      }
+    }
+
+    .button-group {
+      display: flex;
+      justify-content: flex-end;
+      margin-top: 10px;
+
+      button {
+        display: flex;
+        align-items: center;
+        padding: $button-padding;
+        margin-left: 5px;
+        border: none;
+        border-radius: 5px;
+        background-color: $primary-color;
+        color: #fff;
+        cursor: pointer;
+        font-size: 14px;
+        transition: background-color 0.2s;
+
+        svg {
+          margin-right: $icon-margin-right;
+        }
+
+        &:hover {
+          background-color: darken($primary-color, 10%);
+        }
+      }
+
+      a {
+        text-decoration: none;
+      }
+    }
+  }
+}

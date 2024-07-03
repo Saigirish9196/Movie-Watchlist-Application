@@ -1,0 +1,17 @@
+$primary-color: #3498db;
+$secondary-color: #2ecc71;
+$text-color: #333;
+$background-color: #000;
+$border-radius: 5px;
+$box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+// General Styles
+body {
+  background-color: $background-color;
+  color: $text-color;
+  margin: 0;
+}
+
+.app{
+  max-width: 100%;
+}
