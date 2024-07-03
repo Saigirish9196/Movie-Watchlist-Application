@@ -31,6 +31,7 @@ const MovieDetailsPage = () => {
   return (
     <div className="movie-details-container">
       <h3>{movie.title}</h3>
+      <p>{movie.description}</p>
       <p><FaFilm /> {movie.genre}</p>
       <p><FaCalendarAlt /> {movie.releaseYear}</p>
       <p><FaStar /> {`Rating: ${movie.rating}`}</p>
