@@ -4,8 +4,6 @@ $button-padding: 10px 20px;
 $button-margin: 10px 5px;
 $icon-margin-right: 8px;
 
-
-
 .watchlist-container {
   max-width: 800px;
   margin: 20px auto;
@@ -88,6 +86,15 @@ $icon-margin-right: 8px;
       a {
         text-decoration: none;
       }
+    }
+  }
+}
+
+@media (max-width: 480px) {
+  .watchlist-container {
+    .movie-card {
+      max-width: 300px;
+      width: 100%;
     }
   }
 }
